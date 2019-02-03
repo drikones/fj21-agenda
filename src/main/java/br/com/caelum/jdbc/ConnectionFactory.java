@@ -14,7 +14,6 @@ public class ConnectionFactory {
 		catch(SQLException | ClassNotFoundException e)
 		{
 			e.printStackTrace();
-			System.out.println("Algo deu errado: "+e);
 			return null;
 		}
 	}
